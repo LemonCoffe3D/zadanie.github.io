@@ -1,5 +1,47 @@
 h1 {
-    color: red;
+    text-align: center;
+    color: darkcyan;
     font-size: 40px;
     font-weight: bold;
+}
+p {
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: lighter;
+}
+body {
+    font-family: fantasy;
+}
+.flexbox-container {
+border: 2px solid royalblue;
+padding: 3px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.flexbox-container div {
+margin: 3px;
+border: 2px solid royalblue;
+flex-basis: auto;
+}
+.flexbox-container div.art1 {
+flex-basis: 24%;
+background: darkgreen;
+flex-grow: 5;
+flex-shrink: 5;
+}
+.flexbox-container div.art2 {
+flex-basis: 48%;
+background: cyan;
+flex-grow: 5;
+flex-shrink: 5;
+}
+.flexbox-container div.art3 {
+flex-basis: 24%;
+background: darkorange;
+flex-grow: 5;
+flex-shrink: 5;
 }
